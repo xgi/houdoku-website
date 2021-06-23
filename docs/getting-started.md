@@ -24,7 +24,7 @@ extension, you'll see an `Update` button next to the `Remove` option.
 ![extensions page screenshot](/img/screenshot_extensions.png)
 
 :::tip
-Some extensions have their own settings. See the **[Extension Settings](asd)** page for more info.
+Some extensions have their own settings. See the **[Extension Settings](/docs/using-extensions/extension-settings)** page for more info.
 :::
 
 ## Adding a Series
@@ -36,7 +36,7 @@ Clicking a cover image will display a pop-up modal with the series info retrieve
 For filesystem imports, you can (optionally) fill out this information yourself. Click the
 `Add Series` button at the bottom to add it to your library.
 
-For more in-depth info, see the **[Adding Local Series](/docs/adding-manga/adding-local-series)** and **[Adding Remote Series](asd)** pages.
+For more info about filesystem imports, see the **[Adding Local Series](/docs/adding-manga/adding-local-series)** page.
 
 ---
 Houdoku is in active development. Please report bugs or request features [on GitHub](https://github.com/xgi/houdoku/issues).
