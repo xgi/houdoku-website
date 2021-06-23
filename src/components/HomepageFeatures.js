@@ -5,7 +5,7 @@ import styles from "./HomepageFeatures.module.css";
 const FeatureList = [
   {
     title: "Library Management",
-    src: "../../static/img/screenshot_library.png",
+    src: "/img/screenshot_library.png",
     description: (
       <>
         Import series from popular manga aggregators or from your own
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: "Customizable Reader",
-    src: "../../static/img/screenshot_reader.png",
+    src: "/img/screenshot_reader.png",
     description: (
       <>
         Read manga or webtoons with a configurable reader, including vertical
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: "Automatic Series Tracking",
-    src: "../../static/img/screenshot_series.png",
+    src: "/img/screenshot_series.png",
     description: (
       <>
         Automatically check for updates to series in your library, and save your
