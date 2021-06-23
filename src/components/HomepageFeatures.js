@@ -1,45 +1,45 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './HomepageFeatures.module.css';
+import React from "react";
+import clsx from "clsx";
+import styles from "./HomepageFeatures.module.css";
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: "Library Management",
+    src: "../../static/img/screenshot_library.png",
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Import series from popular manga aggregators or from your own
+        filesystem, and manage them all in one place.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: "Customizable Reader",
+    src: "../../static/img/screenshot_reader.png",
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Read manga or webtoons with a configurable reader, including vertical
+        and two-page reading modes.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: "Automatic Series Tracking",
+    src: "../../static/img/screenshot_series.png",
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Automatically check for updates to series in your library, and save your
+        progress as you read -- or sync with your AniList account.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ src, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} alt={title} />
+        <img alt={title} src={src} />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
