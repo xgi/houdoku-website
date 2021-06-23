@@ -23,7 +23,7 @@ function HomepageHeader() {
           <Link className="button button--primary" to="/download">
             <span>Download</span>
           </Link>
-          <Link className="button button--info" to="/docs/intro">
+          <Link className="button button--info" to="/docs/getting-started">
             <span>View Docs</span>
           </Link>
         </div>
