@@ -15,6 +15,7 @@
   --ifm-color-primary-lighter: rgb(200, 179, 207);
   --ifm-color-primary-lightest: rgb(212, 195, 217);
   --ifm-code-font-size: 95%;
+  --ifm-footer-padding-vertical: calc(var(--ifm-spacing-vertical) * 0.6);
 }
 
 .docusaurus-highlight-code-line {
@@ -24,6 +25,6 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-html[data-theme='dark'] .docusaurus-highlight-code-line {
+html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
