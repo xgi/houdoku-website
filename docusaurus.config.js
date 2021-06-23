@@ -85,7 +85,7 @@ module.exports = {
       //     ],
       //   },
       // ],
-      copyright: `Copyright © 2021 Jake Robertson // <a href="https://github.com/xgi/houdoku-website/blob/master/LICENSE.txt" target="_blank">MIT License</a>`,
+      copyright: `Copyright © 2018 - 2021 Jake Robertson // <a href="https://github.com/xgi/houdoku-website/blob/master/LICENSE.txt" target="_blank">MIT License</a>`,
     },
     // prism: {
     //   theme: lightCodeTheme,
