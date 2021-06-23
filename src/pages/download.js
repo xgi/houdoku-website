@@ -79,42 +79,33 @@ export default function DownloadPage() {
           <tr>
             <td>Windows</td>
             <td>
-              <button
-                className="button button--info"
-                onClick={() =>
-                  (location.href = assets.windows.browser_download_url)
-                }
-              >
-                <span>{assets.windows.name}</span>
-              </button>
+              <a href={assets.windows.browser_download_url}>
+                <button className="button button--info">
+                  <span>{assets.windows.name}</span>
+                </button>
+              </a>
             </td>
             <td>{assets.windows.created_at}</td>
           </tr>
           <tr>
             <td>macOS</td>
             <td>
-              <button
-                className="button button--info"
-                onClick={() =>
-                  (location.href = assets.mac.browser_download_url)
-                }
-              >
-                <span>{assets.mac.name}</span>
-              </button>
+              <a href={assets.mac.browser_download_url}>
+                <button className="button button--info">
+                  <span>{assets.mac.name}</span>
+                </button>
+              </a>
             </td>
             <td>{assets.mac.created_at}</td>
           </tr>
           <tr>
             <td>Linux</td>
             <td>
-              <button
-                className="button button--info"
-                onClick={() =>
-                  (location.href = assets.linux.browser_download_url)
-                }
-              >
-                <span>{assets.linux.name}</span>
-              </button>
+              <a href={assets.linux.browser_download_url}>
+                <button className="button button--info">
+                  <span>{assets.linux.name}</span>
+                </button>
+              </a>
             </td>
             <td>{assets.linux.created_at}</td>
           </tr>
