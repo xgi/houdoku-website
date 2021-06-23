@@ -1,49 +1,49 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Houdoku',
-  tagline: 'Free manga reader for the desktop',
-  url: 'https://houdoku.netlify.app',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'faltro',
-  projectName: 'houdoku',
+  title: "Houdoku",
+  tagline: "Free manga reader for the desktop",
+  url: "https://houdoku.netlify.app",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "faltro",
+  projectName: "houdoku",
   themeConfig: {
     colorMode: {
-      defaultMode: 'dark',
+      defaultMode: "dark",
       disableSwitch: true,
     },
     navbar: {
-      title: 'Houdoku',
+      title: "Houdoku",
       logo: {
-        alt: 'Houdoku Logo',
-        src: 'img/logo.svg',
+        alt: "Houdoku Logo",
+        src: "img/logo.svg",
       },
       items: [
         {
-          to: 'download',
-          position: 'left',
-          label: 'Download',
+          to: "download",
+          position: "left",
+          label: "Download",
         },
         {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'Docs',
+          type: "doc",
+          docId: "intro",
+          position: "left",
+          label: "Docs",
         },
         {
-          href: 'https://github.com/xgi/houdoku',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/xgi/houdoku",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       // links: [
       //   {
       //     title: 'Docs',
@@ -85,7 +85,7 @@ module.exports = {
       //     ],
       //   },
       // ],
-      copyright: `Copyright © 2021 Jake Robertson. Built with Docusaurus.`,
+      copyright: `Copyright © 2021 Jake Robertson // <a href="https://github.com/xgi/houdoku-website/blob/master/LICENSE.txt" target="_blank">MIT License</a>`,
     },
     // prism: {
     //   theme: lightCodeTheme,
@@ -94,15 +94,14 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/xgi/houdoku-website/edit/master/',
+          sidebarPath: require.resolve("./sidebars.js"),
+          editUrl: "https://github.com/xgi/houdoku-website/edit/master/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
