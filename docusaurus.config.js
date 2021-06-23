@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Houdoku',
   tagline: 'Free manga reader for the desktop',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://houdoku.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
