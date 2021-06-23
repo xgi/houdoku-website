@@ -6,7 +6,7 @@ sidebar_position: 0
 
 Some extensions, such as MangaDex, have their own settings. 
 
-To view settings for an installed extensions, go to the `Extensions` tab and find
+To view settings for an installed extension, go to the `Extensions` tab and find
 the installed extension on the list. If the extension has its own settings, there
 will be a gear icon in the far right column. Click this gear to open the settings modal.
 
