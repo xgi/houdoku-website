@@ -116,6 +116,11 @@ export default function DownloadPage() {
             GitHub releases page
           </a>
         </p>
+        <h3>Updating</h3>
+        <p>
+          Houdoku checks for updates automatically when the client starts. You
+          will be prompted when an update is available.
+        </p>
         <h3>License</h3>
         <p>
           Houdoku is provided under the{" "}
