@@ -1,0 +1,24 @@
+.content {
+  padding: 48px;
+}
+
+.contentInner {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 0 20px;
+}
+
+.releaseNotesContainer {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin-bottom: 12px;
+}
+
+.downloadButtonRow {
+  display: block;
+  margin: 10px;
+}
+
+.downloadButtonRow > button {
+  margin-right: 10px;
+}
