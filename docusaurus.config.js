@@ -98,9 +98,8 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/xgi/houdoku-website/edit/master/website/',
+            'https://github.com/xgi/houdoku-website/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
