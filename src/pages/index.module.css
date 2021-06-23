@@ -49,6 +49,18 @@
   max-width: 200px;
 }
 
+.inlineIcon {
+  display: inline-flex;
+  position: relative;
+  height: 1em;
+  width: 1em;
+}
+
+.inlineIcon > svg {
+  position: absolute;
+  bottom: -0.125em;
+}
+
 .indexCtas {
   --ifm-button-size-multiplier: 1.6;
   display: flex;
