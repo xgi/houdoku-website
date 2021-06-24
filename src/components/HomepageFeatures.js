@@ -4,11 +4,11 @@ import styles from "./HomepageFeatures.module.css";
 
 const FeatureList = [
   {
-    title: "Library Management",
+    title: "Library Extensions",
     src: "/img/screenshot_library.png",
     description: (
       <>
-        Import series from popular manga aggregators or from your own
+        Read series from popular manga aggregators or from your own
         filesystem, and manage them all in one place.
       </>
     ),
