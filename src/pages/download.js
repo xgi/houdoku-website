@@ -51,8 +51,6 @@ export default function DownloadPage() {
       ),
     };
 
-    console.log(assets);
-
     return (
       <>
         <p>
@@ -62,44 +60,48 @@ export default function DownloadPage() {
           days ago).
         </p>
         <table>
-          <tr>
-            <th>Platform</th>
-            <th>Download</th>
-            <th>Created</th>
-          </tr>
-          <tr>
-            <td>Windows</td>
-            <td>
-              <a href={assets.windows.browser_download_url}>
-                <button className="button button--info">
-                  <span>{assets.windows.name}</span>
-                </button>
-              </a>
-            </td>
-            <td>{assets.windows.created_at}</td>
-          </tr>
-          <tr>
-            <td>macOS</td>
-            <td>
-              <a href={assets.mac.browser_download_url}>
-                <button className="button button--info">
-                  <span>{assets.mac.name}</span>
-                </button>
-              </a>
-            </td>
-            <td>{assets.mac.created_at}</td>
-          </tr>
-          <tr>
-            <td>Linux</td>
-            <td>
-              <a href={assets.linux.browser_download_url}>
-                <button className="button button--info">
-                  <span>{assets.linux.name}</span>
-                </button>
-              </a>
-            </td>
-            <td>{assets.linux.created_at}</td>
-          </tr>
+          <thead>
+            <tr>
+              <th>Platform</th>
+              <th>Download</th>
+              <th>Built</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Windows</td>
+              <td>
+                <a href={assets.windows.browser_download_url}>
+                  <button className="button button--info">
+                    <span>{assets.windows.name}</span>
+                  </button>
+                </a>
+              </td>
+              <td>{assets.windows.created_at}</td>
+            </tr>
+            <tr>
+              <td>macOS</td>
+              <td>
+                <a href={assets.mac.browser_download_url}>
+                  <button className="button button--info">
+                    <span>{assets.mac.name}</span>
+                  </button>
+                </a>
+              </td>
+              <td>{assets.mac.created_at}</td>
+            </tr>
+            <tr>
+              <td>Linux</td>
+              <td>
+                <a href={assets.linux.browser_download_url}>
+                  <button className="button button--info">
+                    <span>{assets.linux.name}</span>
+                  </button>
+                </a>
+              </td>
+              <td>{assets.linux.created_at}</td>
+            </tr>
+          </tbody>
         </table>
         <p>
           or, download manually from the{" "}
