@@ -61,15 +61,6 @@ export default function DownloadPage() {
           on {releaseDate.toLocaleDateString()} ({getDaysSince(releaseDate)}{" "}
           days ago).
         </p>
-        <h3>{latestRelease.tag_name} Release Notes</h3>
-        <div className={styles.releaseNotesContainer}>
-          <span
-            dangerouslySetInnerHTML={{
-              __html: marked(latestRelease.body),
-            }}
-          />
-        </div>
-        <h3>Download</h3>
         <table>
           <tr>
             <th>Platform</th>
@@ -116,6 +107,14 @@ export default function DownloadPage() {
             GitHub releases page
           </a>
         </p>
+        <h3>{latestRelease.tag_name} Release Notes</h3>
+        <div className={styles.releaseNotesContainer}>
+          <span
+            dangerouslySetInnerHTML={{
+              __html: marked(latestRelease.body),
+            }}
+          />
+        </div>
         <h3>Updating</h3>
         <p>
           Houdoku checks for updates automatically when the client starts. You
