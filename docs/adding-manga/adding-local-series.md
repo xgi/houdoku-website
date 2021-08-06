@@ -7,11 +7,13 @@ sidebar_position: 0
 ## FAQ
 
 * What formats can I use to import?
-  * You can either import a directory or an archive file (ZIP/RAR/CBR/CBZ). Archive files follow the same pattern for their internal directory structure. EPUB is not supported, sorry.
+  * You can either import a directory or an archive file (ZIP/RAR/CBR/CBZ). Archive files follow the same pattern for their internal directory structure (see examples below). EPUB is not supported, sorry.
 * Does Houdoku make a copy of what I import?
-  * No, Houdoku simply saves the location of the directory/archive you provide and reads from it when necessary. If you move the series on your filesystem, you will need to remove/re-add it in Houdoku (editing the path is a potential future feature).
+  * No, Houdoku simply saves the location of the directory/archive you provide and reads from it when necessary. If you move the series on your filesystem, you will need to remove/re-add it in Houdoku.
 * Can I update a series on the filesystem after I import it?
-  * Yes, as long as the path to the directory/archive you provided on import remains the same, you can edit it as much as you like (add/remove pages, rename chapters, etc.). These are updated when you refresh the series just like they would be for an external series. However, you cannot currently edit the series metadata after the initial import.
+  * Yes, as long as the path to the directory/archive you provided on import remains the same, you can edit it as much as you like (add/remove pages, rename chapters, etc.). These are updated when you refresh the series just like they would be for an external series.
+* Can I update series metadata (title, description, etc.) after importing?
+  * Yes, open the page for the series in your library and click "Edit Details" in the top right. This feature is only available for local series imports.
 * Do I need to import each series individually?
   * Yes, sorry.
 
