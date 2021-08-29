@@ -4,7 +4,7 @@ import clsx from "clsx";
 
 const Topics = [
   {
-    name: "Add Manga",
+    name: "Adding Manga",
     links: [
       {
         title: "Add from websites",
