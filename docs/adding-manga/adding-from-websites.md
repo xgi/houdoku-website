@@ -24,7 +24,7 @@ extension, you'll see an `Update` button next to the `Remove` option.
 ![extensions page screenshot](/img/screenshot_extensions.png)
 
 :::tip
-Some extensions have their own settings. See the **[Extension Settings](/docs/using-extensions/extension-settings)** page for more info.
+Some extensions have their own settings. See the **[Extension Settings](/docs/extensions/extension-settings)** page for more info.
 :::
 
 ## Adding a Series
