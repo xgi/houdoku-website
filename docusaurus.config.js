@@ -30,8 +30,7 @@ module.exports = {
           label: "Download",
         },
         {
-          type: "doc",
-          docId: "getting-started",
+          to: "docs",
           position: "left",
           label: "Docs",
         },

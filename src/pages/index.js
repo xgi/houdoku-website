@@ -37,7 +37,7 @@ function HomepageHeader() {
             </span>
             <span>Download</span>
           </Link>
-          <Link className="button button--info" to="/docs/getting-started">
+          <Link className="button button--info" to="/docs">
             <span className={styles.inlineIcon}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
