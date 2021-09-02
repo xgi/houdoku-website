@@ -12,6 +12,10 @@ see a checkmark in the "DL" column of the chapter table.
 
 ![download menu](/img/screenshot_download_menu.png)
 
+:::tip
+You can change your download directory in `Settings` -> `General` -> `Custom Downloads Location`.
+:::
+
 The progress of the current download will be displayed in the status bar at the bottom of the
 window. To view/manage the download queue, go to the `Downloads` tab.
 

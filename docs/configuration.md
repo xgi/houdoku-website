@@ -16,6 +16,8 @@ You can configure Houdoku from the `Settings` tab on the left.
   manually from the `About` tab. _(default: true)_
 - **Check For Extension Updates Automatically**: Self-explanatory. You can also view available
   updates from the `Extensions` tab. _(default: true)_
+- **Custom Downloads Location**: The directory to download chapters. See
+  [Offline Downloading](/docs/offline-downloading).
 
 ## Reader
 
