@@ -1,0 +1,21 @@
+.content {
+  padding: 48px;
+}
+
+.contentInner {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.codeArea {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  padding: 4px;
+}
+
+.details {
+  padding-top: 16px;
+}

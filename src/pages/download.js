@@ -1,10 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Layout from "@theme/Layout";
-import CodeBlock from "@theme/CodeBlock";
-import Link from "@docusaurus/Link";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./download.module.css";
-import HomepageFeatures from "../components/HomepageFeatures";
 import marked from "marked";
 import constants from "../constants.json";
 
