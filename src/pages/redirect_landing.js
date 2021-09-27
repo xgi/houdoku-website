@@ -10,7 +10,7 @@ export default function Redirect_LandingPage() {
         const urlParams = new URLSearchParams(window.location.search);
 
         return (
-          <Layout title="Hello">
+          <Layout title="Auth Redirect">
             <div className={styles.content}>
               <div className={styles.contentInner}>
                 <p>
