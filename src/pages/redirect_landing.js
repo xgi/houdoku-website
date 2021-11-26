@@ -12,7 +12,7 @@ export default function Redirect_LandingPage() {
         return (
           <Layout title="Auth Redirect">
             <div className={styles.content}>
-              <div className={styles.contentInner}>
+              <div className={styles.redirectContentInner}>
                 <p>
                   To finish authenticating, copy the below code into Houdoku.
                 </p>

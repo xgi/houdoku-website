@@ -139,7 +139,7 @@ export default function DownloadPage() {
     >
       <main>
         <div className={styles.content}>
-          <div className={styles.contentInner}>
+          <div className={styles.downloadContentInner}>
             <h1>Download Houdoku</h1>
             {renderDownloadContent()}
           </div>
