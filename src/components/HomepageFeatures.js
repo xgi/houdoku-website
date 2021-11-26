@@ -29,7 +29,7 @@ const FeatureList = [
     description: (
       <>
         Automatically check for updates to series in your library, and save your
-        progress as you read -- or sync with your AniList account.
+        progress as you read -- or sync with your AniList/MyAnimeList account.
       </>
     ),
   },
