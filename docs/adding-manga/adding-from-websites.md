@@ -37,4 +37,4 @@ Click the `Add Series` button at the bottom to add it to your library. Once it's
 will have a green checkmark in the top-right corner.
 
 ---
-For information about filesystem imports, see the **[Adding Local Series](/docs/adding-manga/adding-local-series)** page.
+For information about filesystem imports, see the **[Adding From Filesystem](/docs/adding-manga/adding-from-filesystem)** page.

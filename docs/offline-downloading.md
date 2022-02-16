@@ -6,11 +6,10 @@ sidebar_position: 3
 
 Houdoku allows you to download chapters so that you can read them when you're offline.
 
-To download chapters for a series, right click a row in that series' chapter table
-and select one of the download options. When a chapter has been downloaded, you will
-see a checkmark in the "DL" column of the chapter table.
-
-![download menu](/img/screenshot_download_menu.png)
+To download chapters for a series, click the Download button at the top right of the page for
+that series in your library. You can also right click a specific chapter in the list
+to download. When a chapter has been downloaded, you will see a checkmark in the "DL"
+column of the chapter table.
 
 :::tip
 You can change your download directory in `Settings` -> `General` -> `Custom Downloads Location`.
