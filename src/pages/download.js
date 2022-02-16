@@ -20,7 +20,7 @@ export default function DownloadPage() {
   };
 
   const renderDownloadContent = () => {
-    if (latestRelease === undefined)
+    if (latestRelease === undefined) {
       return (
         <>
           <p>Loading latest release from GitHub...</p>
@@ -34,9 +34,9 @@ export default function DownloadPage() {
           </p>
         </>
       );
+    }
 
     const releaseDate = new Date(latestRelease.published_at);
-
     const assets = {
       windows: latestRelease.assets.find((asset) =>
         asset.name.endsWith(".exe")
@@ -64,39 +64,51 @@ export default function DownloadPage() {
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>Windows</td>
-              <td>
-                <a href={assets.windows.browser_download_url}>
-                  <button className="button button--info">
-                    <span>{assets.windows.name}</span>
-                  </button>
-                </a>
-              </td>
-              <td>{assets.windows.created_at}</td>
-            </tr>
-            <tr>
-              <td>macOS</td>
-              <td>
-                <a href={assets.mac.browser_download_url}>
-                  <button className="button button--info">
-                    <span>{assets.mac.name}</span>
-                  </button>
-                </a>
-              </td>
-              <td>{assets.mac.created_at}</td>
-            </tr>
-            <tr>
-              <td>Linux</td>
-              <td>
-                <a href={assets.linux.browser_download_url}>
-                  <button className="button button--info">
-                    <span>{assets.linux.name}</span>
-                  </button>
-                </a>
-              </td>
-              <td>{assets.linux.created_at}</td>
-            </tr>
+            {assets.windows !== undefined ? (
+              <tr>
+                <td>Windows</td>
+                <td>
+                  <a href={assets.windows.browser_download_url}>
+                    <button className="button button--info">
+                      <span>{assets.windows.name}</span>
+                    </button>
+                  </a>
+                </td>
+                <td>{assets.windows.created_at}</td>
+              </tr>
+            ) : (
+              <></>
+            )}
+            {assets.mac !== undefined ? (
+              <tr>
+                <td>macOS</td>
+                <td>
+                  <a href={assets.mac.browser_download_url}>
+                    <button className="button button--info">
+                      <span>{assets.mac.name}</span>
+                    </button>
+                  </a>
+                </td>
+                <td>{assets.mac.created_at}</td>
+              </tr>
+            ) : (
+              <></>
+            )}
+            {assets.linux !== undefined ? (
+              <tr>
+                <td>Linux</td>
+                <td>
+                  <a href={assets.linux.browser_download_url}>
+                    <button className="button button--info">
+                      <span>{assets.linux.name}</span>
+                    </button>
+                  </a>
+                </td>
+                <td>{assets.linux.created_at}</td>
+              </tr>
+            ) : (
+              <></>
+            )}
           </tbody>
         </table>
         <p>
