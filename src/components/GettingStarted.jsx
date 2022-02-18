@@ -12,7 +12,7 @@ const Topics = [
       },
       {
         title: "Add from filesystem",
-        url: "/docs/adding-manga/adding-local-series",
+        url: "/docs/adding-manga/adding-from-filesystem",
       },
     ],
     description:
