@@ -43,11 +43,10 @@ Keyboard shortcuts:
 - **Previous Chapter** _(default: [)_
 - **Exit Reader** _(default: backspace)_
 - **Close/Back** _(default: escape)_
-- **Toggle Sidebar** _(default: s)_
-- **Toggle Layout Direction** _(default: d)_
-- **Toggle Page View** _(default: q)_
-- **Toggle Page Fit** _(default: f)_
+- **Toggle Reading Direction** _(default: d)_
+- **Toggle Page Style** _(default: q)_
 - **Show Settings Menu** _(default: o)_
+- **Toggle Menu Bar** _(default: m)_
 
 ## Trackers
 
