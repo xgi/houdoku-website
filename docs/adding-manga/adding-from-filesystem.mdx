@@ -2,7 +2,17 @@
 sidebar_position: 1
 ---
 
+import { TabText } from "@site/src/components/TabText";
+
 # Adding From Filesystem
+
+## Importing a series
+
+Go to the <TabText name='search'/> tab. Select `filesystem` from the dropdown and click `Select Directory`.
+Select the directory of the series to add. Edit the details of the series from the popup modal,
+then click `Add Series` in the bottom right.
+
+You can view the series you added from the <TabText name='library'/> tab.
 
 ## FAQ
 
@@ -22,7 +32,7 @@ sidebar_position: 1
 - Do I need to import each series individually?
   - Yes, sorry.
 
-## Example Structures
+## Example directory structures
 
 ```
 Manga Title
@@ -50,7 +60,7 @@ Manga Title
   - [Group] Chapter One Title v2 c5
 ```
 
-## How Importing Works
+## Technical information
 
 Houdoku treats every directory containing an image as a chapter. Therefore, it is _functional_ for any directory layout. The main concern is how metadata for chapters is parsed.
 

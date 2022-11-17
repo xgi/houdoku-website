@@ -29,7 +29,7 @@ module.exports = {
         {
           to: "docs",
           position: "left",
-          label: "Docs",
+          label: "Documentation",
         },
         {
           href: "https://github.com/xgi/houdoku",

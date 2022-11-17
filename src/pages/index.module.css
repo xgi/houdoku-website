@@ -46,7 +46,7 @@
   float: right;
   margin-top: 20px;
   padding: 0 20px 20px;
-  max-width: 200px;
+  max-width: 240px;
 }
 
 .inlineIcon {
@@ -54,6 +54,7 @@
   position: relative;
   height: 1em;
   width: 1em;
+  margin-right: 0.25em;
 }
 
 .inlineIcon > svg {
@@ -70,16 +71,7 @@
 }
 
 .indexCtas a:last-of-type {
-  margin: 20px 36px;
-}
-
-.indexCtasGitHubButtonWrapper {
-  display: flex;
-}
-
-.indexCtasGitHubButton {
-  border: none;
-  overflow: hidden;
+  margin: 20px 16px;
 }
 
 .indexCtaTryNowButton:hover {

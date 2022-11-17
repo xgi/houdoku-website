@@ -19,10 +19,10 @@ const Topics = [
       "Read manga from supported aggregator/scanlator websites, or import from your filesystem.",
   },
   {
-    name: "Configuration",
-    links: [{ title: "Learn more", url: "/docs/configuration" }],
+    name: "Tracking",
+    links: [{ title: "Learn more", url: "/docs/trackers" }],
     description:
-      "Customize your library layout, change your reader keybindings, sync with your AniList account, and more.",
+      "Automatically sync your progress with your AniList or MyAnimeList account.",
   },
   {
     name: "Offline Downloading",

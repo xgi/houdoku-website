@@ -2,6 +2,8 @@
 sidebar_position: 0
 ---
 
+import { TabText } from "@site/src/components/TabText";
+
 # Manual Extension Handling
 
 If you encounter issues removing extensions from within Houdoku, or if an extension
@@ -17,10 +19,10 @@ Extensions are saved in the app's `userData` directory:
 Extensions are in the `plugins` directory. You can either remove this entire directory
 or individual extensions inside.
 
-:::tip
+:::info
 You can modify extensions while Houdoku is running. After making changes on the filesystem,
-go to the `Extensions` tab -> click `View Installed Extensions` -> click `Reload Extensions`.
+go to the <TabText name='extensions'/> tab -> `View Installed Extensions` -> `Reload Extensions`.
 :::
 
-If you have issues with a specific extension, please report it in the
+If you have an issue with a specific extension, please report it in the
 [houdoku-extensions repository](https://github.com/xgi/houdoku-extensions/issues).
