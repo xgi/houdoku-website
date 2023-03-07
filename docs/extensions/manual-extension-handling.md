@@ -11,7 +11,7 @@ causes the client to crash, you can manually remove them from your filesystem.
 
 Extensions are saved in the app's `userData` directory:
 
-- Windows: `%APPDATA%/Roaming/Houdoku`
+- Windows: `%APPDATA%/Houdoku`
 - macOS: `~/Library/Application Support/Houdoku`
 - Linux: `$XDG_CONFIG_HOME/Houdoku` or `~/.config/Houdoku`
 - If you specified a custom install directory, check there first.
