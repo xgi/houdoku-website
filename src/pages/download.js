@@ -39,7 +39,7 @@ export default function DownloadPage() {
     const releaseDate = new Date(latestRelease.published_at);
     const assets = {
       windows: latestRelease.assets.find((asset) =>
-        asset.name.endsWith(".exe")
+        /Houdoku-Setup-.*\.exe$/.test(asset.name)
       ),
       mac: latestRelease.assets.find((asset) => asset.name.endsWith(".dmg")),
       linux: latestRelease.assets.find((asset) =>
@@ -112,7 +112,7 @@ export default function DownloadPage() {
           </tbody>
         </table>
         <p>
-          or, download manually from the{" "}
+          or, download alternate versions from the{" "}
           <a href="https://github.com/xgi/houdoku/releases" target="_blank">
             GitHub releases page
           </a>
